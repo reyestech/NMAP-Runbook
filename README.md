@@ -4,7 +4,7 @@
 </h1> Group 17: Script K™</h1>
 <h1> NMAP | Scanning is an ART </h1>
 
- ### [Alternative Link | Google Docs | UTM: Kali Linux and Runbook](https://docs.google.com/document/d/e/2PACX-1vTemK9_PhnSCm1t8OFJdnwBazk3Qu-vFYuyQzL8kMIGuWRmmnMAOO7PeK4xsDEDs2Hn-lhxUjx_WcON/pub)
+ ### [Alternative Link | Google Docs | NMAP Runbook](https://docs.google.com/document/d/e/2PACX-1vTemK9_PhnSCm1t8OFJdnwBazk3Qu-vFYuyQzL8kMIGuWRmmnMAOO7PeK4xsDEDs2Hn-lhxUjx_WcON/pub)
 
 <img src="https://i.imgur.com/3cnmaEu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 
