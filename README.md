@@ -1,6 +1,6 @@
 # NMAP | Runbook
 
-<h1>Hector M. Reyes  | SOC Analysis </h1>
+<h1>Hector M. Reyes  | SOC Analyst </h1>
 </h1> Group 17: Script K™</h1>
 <h1> NMAP | Scanning is an ART </h1>
 
