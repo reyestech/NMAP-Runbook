@@ -1,12 +1,14 @@
-# NMAP | Runbook
 
-<h1>Hector M. Reyes  | SOC Analyst </h1>
+<img src="https://i.imgur.com/3cnmaEu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+
+## NMAP | Runbook
+
+<h2>Hector M. Reyes  | SOC Analyst </h2>
 </h1> Group 17: Script K™</h1>
-<h1> NMAP | Scanning is an ART </h1>
+<h1> NMAP: Scanning is an ART </h1>
 
  ### [Alternative Link | Google Docs | NMAP Runbook](https://docs.google.com/document/d/e/2PACX-1vTemK9_PhnSCm1t8OFJdnwBazk3Qu-vFYuyQzL8kMIGuWRmmnMAOO7PeK4xsDEDs2Hn-lhxUjx_WcON/pub)
 
-<img src="https://i.imgur.com/3cnmaEu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 
 <h2>Description</h2>
 Nmap, "Network Mapper," is a robust network exploration and security auditing tool. It is an open-source software initially created by Gordon Lyon, known by his pseudonym "Fyodor Vaskovich." The tool is currently maintained and developed by a community of contributors. Nmap can be used on different platforms, including Linux, Windows, and macOS.
