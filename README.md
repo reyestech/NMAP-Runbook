@@ -7,7 +7,7 @@
 <h1> NMAP: Scanning is an ART </h1>
 NMAP Runbook
 
- ### [Alternative Link | Google Docs | NMAP Runbook](https://docs.google.com/document/d/e/2PACX-1vTemK9_PhnSCm1t8OFJdnwBazk3Qu-vFYuyQzL8kMIGuWRmmnMAOO7PeK4xsDEDs2Hn-lhxUjx_WcON/pub)
+ ### [ Google Docs Link | NMAP Runbook](https://docs.google.com/document/d/1riPU2D4doYS3gR1WQBcDT8-ukhD2sQNkOAXX0CC1x7o/pub)
 <img src="https://i.imgur.com/fSmgUTl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 <br /> <br /> 
 
