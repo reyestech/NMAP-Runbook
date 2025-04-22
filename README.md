@@ -21,7 +21,7 @@ Network mapping identifies and visualizes the components, connections, and struc
 Port Scanning <br /> 
 One of Nmap's core functionalities is scanning a target host for open, closed, and filtered ports. This information is critical for comprehending network architecture and identifying potential vulnerabilities.
 - <b > Identifying open, closed, and filtered ports on a target host. 
-Techniques include TCP SYN scan, TCP connect scan, UDP scan, and others. 
+Techniques include TCP SYN scans, TCP connect scans, UDP scans, and others. 
 Users can customize scan parameters, such as speed and intensity. 
 
 Service Version Detection  <br /> 
@@ -46,7 +46,7 @@ Nmap is a widely used security tool with a powerful scripting engine called NSE 
 - <b > Enhances flexibility and customization of scans. 
 
 Stealthy Scanning Techniques:  <br /> 
-Different techniques, such as timing control, fragmentation, and decoy hosts, are available to conduct stealth scans. These methods help avoid intrusion detection and prevention systems, maintaining a low profile during reconnaissance activities.
+Different techniques, such as timing control, fragmentation, and decoy hosts, are available to conduct stealth scans. These methods help avoid intrusion detection and prevention systems, allowing them to maintain a low profile during reconnaissance activities.
 - <b > Conducting scans stealthily to evade detection. 
 Techniques include timing control, packet fragmentation, and decoy hosts. 
 - <b > It helps avoid triggering intrusion detection/prevention systems (IDS/IPS). 
@@ -68,7 +68,7 @@ Enhances functionality and customization.
 - <b > Contributes to a rich ecosystem of community-contributed scripts and plugins. 
 
 Legal and Ethical Considerations <br /> 
-Nmap is a valuable tool used by network administrators, security professionals, and researchers. However, it's crucial to understand that using Nmap for network scanning on networks that are not owned by you or for which you do not have explicit permission is unethical and illegal. Unauthorized network scanning can lead to privacy violations, computer intrusion, and unauthorized access to sensitive information. Therefore, using Nmap responsibly while staying within the boundaries of applicable laws and regulations is essential.
+Nmap is a valuable tool used by network administrators, security professionals, and researchers. However, it's crucial to understand that using Nmap for network scanning on networks that are not owned by you or for which you don't have explicit permission is unethical and potentially illegal. Unauthorized network scanning can lead to privacy violations, computer intrusion, and unauthorized access to sensitive information. Therefore, using Nmap responsibly while staying within the boundaries of applicable laws and regulations is essential.
 Purpose  <br /> 
 - <b > Network discovery 
 - <b > Port scanning 
@@ -81,7 +81,7 @@ Purpose  <br />
 
 Installation  <br /> 
 Nmap is available for various operating systems, including Linux, Windows, and macOS.
-Installation methods may vary depending on the operating system. 
+Installation methods may vary depending on the operating system you use. 
 - <b > You can install Linux using your package manager (apt install nmap for Debian/Ubuntu). 
 
 Basic Usage <br /> 
@@ -129,8 +129,8 @@ Example Usage <br />
 <br /> <br /> 
 
 Tips:  <br /> 
-- <b > Use caution when scanning networks you don't own or haven't been authorized to scan. 
-- <b > Refer to the Nmap documentation and community resources for advanced usage and best practices. 
+- <b > Please be sure to use caution when scanning networks you don't own or haven't been authorized to scan. 
+Please take a look at the Nmap documentation and community resources for advanced usage and best practices. 
 - <b > Regularly update Nmap and its scripts to benefit from the latest features and vulnerability checks. 
 <br /> <br /> 
 
