@@ -12,20 +12,20 @@ NMAP Runbook
 <br /> <br /> 
 
 <h2>Description</h2>
-"Nmap," short for "Network Mapper," is a powerful tool for analyzing networks and performing security assessments. Gordon Lyon created the software, also known as "Fyodor Vaskovich." It is an open-source software that is constantly being improved by a community of developers. Nmap is versatile and can be used on multiple platforms, including Linux, Windows, and macOS.<br /> 
+Nmap, short for Network Mapper, is a powerful tool for analyzing networks and performing security assessments. Gordon Lyon created the software, also known as "Fyodor Vaskovich." It is an open-source software that is constantly being improved by a community of developers. Nmap is versatile and can be used on multiple platforms, including Linux, Windows, and macOS.<br /> 
 
 
  <br> Network Mapping <br /> 
-Network mapping identifies and visualizes a computer network's components, connections, and structures. It involves collecting data, analyzing it, and creating a comprehensive network map. By making such a map, we can understand how devices are interconnected within a network. This understanding is crucial for effective network management, troubleshooting, and security measures.
+Network mapping identifies and visualizes the components, connections, and structures of a computer network. It involves collecting data, analyzing it, and creating a comprehensive network map. By making such a map, we can understand how devices are interconnected within a network. This understanding is crucial for effective network management, troubleshooting, and security measures.
 
 Port Scanning <br /> 
 One of Nmap's core functionalities is scanning a target host for open, closed, and filtered ports. This information is critical for comprehending network architecture and identifying potential vulnerabilities.
 - <b > Identifying open, closed, and filtered ports on a target host. 
-- <b > Techniques include TCP SYN scan, TCP connect scan, UDP scan, etc. 
-- <b > Users can customize scan parameters such as speed and intensity. 
+Techniques include TCP SYN scan, TCP connect scan, UDP scan, and others. 
+Users can customize scan parameters, such as speed and intensity. 
 
 Service Version Detection  <br /> 
-Nmap can identify the version of services running on open ports, which is useful for security auditing and detecting known vulnerabilities that could be exploited.
+Nmap can identify the version of services running on open ports, which is helpful for security auditing and detecting known vulnerabilities that could be exploited.
 - <b > Determining the version of services running on open ports. 
 - <b > Helps in security assessment and vulnerability detection. 
 - <b > Based on specific probes and analyzing responses. 
@@ -36,19 +36,19 @@ Nmap can identify the version of services running on open ports, which is useful
 Operating System Detection  <br /> 
 Nmap can identify the operating system running on a target host by analyzing various characteristics observed during the scanning process. This feature is helpful for network administrators to determine the types of devices present on the network and for security analysts to assess potential risks associated with specific operating systems.
 - <b > Guessing the operating system of a target host. 
-- <b > Techniques include TCP/IP stack behavior analysis and network fingerprinting.
+Techniques include TCP/IP stack behavior analysis and network fingerprinting.
 - <b > Useful for inventory management and risk assessment.
 
 Scripting Engine  <br /> 
-Nmap is a widely used security tool with a powerful scripting engine called NSE (Nmap Scripting Engine). This engine allows users to create and execute custom scripts to automate various tasks during the scanning process. Using NSE, users can efficiently perform advanced functions like vulnerability detection, service enumeration, and more. Nmap's scripting engine is highly flexible and versatile, making it an essential tool for security professionals and enthusiasts.
+Nmap is a widely used security tool with a powerful scripting engine called NSE (Nmap Scripting Engine). This engine allows users to create and execute custom scripts to automate various tasks during the scanning process. Using NSE, users can efficiently perform advanced functions, such as vulnerability detection and service enumeration, among others. Nmap's scripting engine is highly flexible and versatile, making it an essential tool for security professionals and enthusiasts.
 - <b > Automating tasks during scanning with custom scripts. 
 - <b > Scripts perform various functions, such as vulnerability detection and service enumeration. 
 - <b > Enhances flexibility and customization of scans. 
 
 Stealthy Scanning Techniques:  <br /> 
-Different techniques, such as timing control, fragmentation, and decoy hosts, are available to conduct stealth scans. These methods help avoid intrusion detection/prevention systems and maintain a low profile during reconnaissance activities.
+Different techniques, such as timing control, fragmentation, and decoy hosts, are available to conduct stealth scans. These methods help avoid intrusion detection and prevention systems, maintaining a low profile during reconnaissance activities.
 - <b > Conducting scans stealthily to evade detection. 
-- <b > Techniques include timing control, packet fragmentation, and decoy hosts. 
+Techniques include timing control, packet fragmentation, and decoy hosts. 
 - <b > It helps avoid triggering intrusion detection/prevention systems (IDS/IPS). 
 <br /> <br />
 
@@ -59,16 +59,16 @@ Output Formats:  <br />
 Nmap supports multiple output formats to display scan results, such as plain text, XML, and grepable formats. This flexibility allows users to analyze scan results in various environments and integrate them with other tools and systems.
 - <b > Presenting scan results in various formats. 
 - <b > Includes plain text, XML, and grepable formats. 
-- <b > Allows for easy analysis and integration with other tools.
+Allows for easy analysis and integration with other tools.
 
 Extensibility  <br /> 
 Nmap's architecture is designed to be extensible, allowing third-party developers to create plugins, scripts, and additional features to enhance its functionality.
-- <b > Nmap's architecture allows for creating plugins and scripts. 
-- <b > Enhances functionality and customization. 
+Nmap's architecture allows for creating plugins and scripts. 
+Enhances functionality and customization. 
 - <b > Contributes to a rich ecosystem of community-contributed scripts and plugins. 
 
 Legal and Ethical Considerations <br /> 
-Nmap is a valuable tool network administrators, security professionals, and researchers use. However, it's crucial to understand that utilizing Nmap for network scanning of networks that are not owned by you or do not have explicit permission for scanning is unethical and illegal. This unauthorized network scanning can lead to privacy violations, computer intrusion, and illicit access laws. Therefore, using Nmap responsibly while staying within the boundaries of applicable laws and regulations is essential.
+Nmap is a valuable tool used by network administrators, security professionals, and researchers. However, it's crucial to understand that using Nmap for network scanning on networks that are not owned by you or for which you do not have explicit permission is unethical and illegal. Unauthorized network scanning can lead to privacy violations, computer intrusion, and unauthorized access to sensitive information. Therefore, using Nmap responsibly while staying within the boundaries of applicable laws and regulations is essential.
 Purpose  <br /> 
 - <b > Network discovery 
 - <b > Port scanning 
@@ -80,13 +80,13 @@ Purpose  <br />
 <br />   <br /> 
 
 Installation  <br /> 
-- <b > Nmap is available for various operating systems, including Linux, Windows, and macOS.
-- <b > Installation methods may vary depending on the operating system. 
+Nmap is available for various operating systems, including Linux, Windows, and macOS.
+Installation methods may vary depending on the operating system. 
 - <b > You can install Linux using your package manager (apt install nmap for Debian/Ubuntu). 
 
 Basic Usage <br /> 
 - <b > Syntax: nmap [Scan Type(s)] [Options] {target specification} 
-- <b > Target specification can be a hostname, CIDR notation, or a range of IP addresses. 
+- <b> The target specification can be a hostname, CIDR notation, or a range of IP addresses. 
 
 Examples:  <br /> 
 - <b > Scan a single host: Nmap 192.168.1.1 
@@ -113,7 +113,7 @@ Example Usage <br />
 <img src="https://i.imgur.com/7ZYosQ9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 <br /> <br /> 
 
-- <b > Perform an SYN scan with OS detection: nmap -sS -O 192.168.1.1
+- <b > Perform a SYN scan with OS detection: nmap -sS -O 192.168.1.1
 
 <img src="https://i.imgur.com/LFr3tyy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 <br /> <br /> 
