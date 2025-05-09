@@ -118,14 +118,14 @@ Scan a single host: Nmap 192.168.1.1
 
 
 #### Tips:
-- <b > Please be sure to use caution when scanning networks you don't own or haven't been authorized to scan. 
-Please take a look at the Nmap documentation and community resources for advanced usage and best practices. 
+- <b > Please be cautious when scanning networks you don't own or haven't been authorized to scan. 
+Please review the Nmap documentation and community resources for advanced usage and best practices. 
 - <b > Regularly update Nmap and its scripts to benefit from the latest features and vulnerability checks. 
 
 ---
 
 ## Conclusion <br /> 
-Nmap is a highly regarded network scanning tool with many applications, including network inventory, security auditing, and vulnerability assessment. By thoroughly understanding its many features, users can fully exploit Nmap's capabilities to extract valuable insights about target networks and systems.
+Nmap is a highly regarded network scanning tool with many applications, including network inventory, security auditing, and vulnerability assessment. Users can fully exploit Nmap's capabilities to extract valuable insights about target networks and systems by thoroughly understanding its many features.
 
 This guide comprehensively introduces Nmap and its practical usage. However, for those eager to explore advanced techniques and delve into the intricacies of Nmap, we strongly recommend engaging with online resources tailored to its nuances. These resources provide an immersive journey into the depths of Nmap's functionality, empowering users to maximize its potential and enhance their network reconnaissance and security efforts.
 
