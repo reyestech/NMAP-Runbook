@@ -1,24 +1,38 @@
+<div style="text-align: center;">
+  <img 
+    src="https://github.com/user-attachments/assets/80f4773b-4cfa-447c-b74a-7382e3aa8390" 
+    alt="image" 
+    style="width: 90%; height: auto;"
+  />
+</div>
 
-<img src="https://i.imgur.com/3cnmaEu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 
 <h1> NMAP: Runbook </h1>
 
 #### Hector M. Reyes  | SOC Analyst | [Google Docs Link| NMAP Runbook](https://docs.google.com/document/d/1riPU2D4doYS3gR1WQBcDT8-ukhD2sQNkOAXX0CC1x7o/pub)
 
+<p align="center">
+  <img 
+    src="https://github.com/user-attachments/assets/cf4e931c-1885-4f92-8670-e5b0bb24d264" 
+    alt="image" 
+    width="647"
+  />
+</p>
+
 ----
 
-## Description: NMAP, Scanning is an ART
-Nmap, short for Network Mapper, is a powerful tool for analyzing networks and performing security assessments. Gordon Lyon created the software, also known as "Fyodor Vaskovich." It is an open-source software that is constantly being improved by a community of developers. Nmap is versatile and can be used on multiple platforms, including Linux, Windows, and macOS.<br /> 
-<img src="https://i.imgur.com/fSmgUTl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+## **Intro**
+**Description: NMAP, Scanning is an ART**
+Nmap, short for Network Mapper, is a powerful tool for analyzing networks and performing security assessments. Gordon Lyon created the software, also known as "Fyodor Vaskovich." It is an open-source software that is constantly being improved by a community of developers. Nmap is a versatile tool that can be used on multiple platforms, including Linux, Windows, and macOS.<br /> 
 
 **Network Mapping** <br/>
-Network mapping identifies and visualizes the components, connections, and structures of a computer network. It involves collecting data, analyzing it, and creating a comprehensive network map. By making such a map, we can understand how devices are interconnected within a network. This understanding is crucial for effective network management, troubleshooting, and security measures.
+Network mapping identifies and visualizes the components, connections, and structures of a computer network. It involves collecting data, analyzing it, and creating a comprehensive network map. By making such a map, we can gain insight into how devices are interconnected within a network. This understanding is crucial for effective network management, troubleshooting, and security measures.
 
 Port Scanning <br/>
 One of Nmap's core functionalities is scanning a target host for open, closed, and filtered ports. This information is critical for comprehending network architecture and identifying potential vulnerabilities.
 >- Identifying open, closed, and filtered ports on a target host.
->- Techniques include TCP SYN scans, TCP connect scans, UDP scans, and others. 
->- Users can customize scan parameters, such as speed and intensity. 
+>- Techniques include TCP SYN scans, TCP connect scans, UDP scans, and others.
+>- Users can customize scan parameters, including speed and intensity. 
 
 Service Version Detection <br/>
 Nmap can identify the version of services running on open ports, which is helpful for security auditing and detecting known vulnerabilities that could be exploited.
@@ -40,7 +54,7 @@ Nmap is a widely used security tool with a powerful scripting engine called NSE 
 >- <b > Enhances flexibility and customization of scans.
 
 Stealthy Scanning Techniques <br/>
-Different techniques, such as timing control, fragmentation, and decoy hosts, are available to conduct stealth scans. These methods help avoid intrusion detection and prevention systems, allowing them to maintain a low profile during reconnaissance activities.
+Various techniques, including timing control, fragmentation, and decoy hosts, are available to conduct stealthy scans. These methods help avoid intrusion detection and prevention systems, allowing them to maintain a low profile during reconnaissance activities.
 >- Conducting scans stealthily to evade detection. 
 Techniques include timing control, packet fragmentation, and decoy hosts. 
 >- It helps avoid triggering intrusion detection/prevention systems (IDS/IPS). 
@@ -54,12 +68,12 @@ Nmap supports multiple output formats to display scan results, such as plain tex
 
 Extensibility <br/>
 Nmap's architecture is designed to be extensible, allowing third-party developers to create plugins, scripts, and additional features to enhance its functionality.  <br /> 
-Nmap's architecture allows plugins and scripts to be created. <br />
+Nmap's architecture enables the creation of plugins and scripts. <br />
 Enhances functionality and customization. 
 >- <b > Contributes to a rich ecosystem of community-contributed scripts and plugins. 
 
 Legal and Ethical Considerations <br/>
-Nmap is a valuable tool that network administrators, security professionals, and researchers use. However, it's crucial to understand that using Nmap for network scanning on networks not owned by you or for which you don't have explicit permission is unethical and potentially illegal. Unauthorized network scanning can lead to privacy violations, computer intrusion, and unauthorized access to sensitive information. Therefore, using Nmap responsibly while staying within the boundaries of applicable laws and regulations is essential.
+Nmap is a valuable tool used by network administrators, security professionals, and researchers. However, it's crucial to understand that using Nmap for network scanning on networks not owned by you or for which you don't have explicit permission is unethical and potentially illegal. Unauthorized network scanning can lead to privacy violations, computer intrusion, and unauthorized access to sensitive information. Therefore, using Nmap responsibly while staying within the boundaries of applicable laws and regulations is essential.
 > Purpose 
 >- <b > Network discovery 
 >- <b > Port scanning 
@@ -118,15 +132,15 @@ Additional Options
 
 Tips <br/>
 - <b > Please be cautious when scanning networks you don't own or haven't been authorized to scan. 
-Please review the Nmap documentation and community resources for advanced usage and best practices. 
+Please refer to the Nmap documentation and community resources for advanced usage and best practices. 
 - <b > Regularly update Nmap and its scripts to benefit from the latest features and vulnerability checks. 
 
 ---
 
-## Conclusion <br /> 
+## **Conclusion**
 Nmap is a highly regarded network scanning tool with many applications, including network inventory, security auditing, and vulnerability assessment. Users can fully exploit Nmap's capabilities to extract valuable insights about target networks and systems by thoroughly understanding its many features.
 
-This guide comprehensively introduces Nmap and its practical usage. However, for those eager to explore advanced techniques and delve into the intricacies of Nmap, we strongly recommend engaging with online resources tailored to its nuances. These resources provide an immersive journey into the depths of Nmap's functionality, empowering users to maximize its potential and enhance their network reconnaissance and security efforts.
+This guide provides a comprehensive introduction to Nmap and its practical applications. However, for those eager to explore advanced techniques and delve into the intricacies of Nmap, we strongly recommend engaging with online resources tailored to its nuances. These resources provide an immersive journey into the depths of Nmap's functionality, empowering users to maximize its potential and enhance their network reconnaissance and security efforts.
 
 <img src="https://i.imgur.com/fsHfr6b.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 
